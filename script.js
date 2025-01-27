@@ -1,13 +1,7 @@
-// USING JAVASCRIPT
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-// const root = document.getElementById("root");
-
-// const heading = document.createElement("h1");
-// heading.textContent = "Hello, World!";
-// root.appendChild(heading);
-
-// USING REACT & REACT-DOM
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
